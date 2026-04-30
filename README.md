@@ -2,7 +2,7 @@
 🎮 Game Art Pipeline — 多Agent游戏创作系统
 输入一组主题关键词，自动流水线生成完整独立游戏项目包：世界观、角色设计、游戏原型、宣传海报、发行文案。
 架构图
-```
+
 [主题关键词]
      ↓
 WorldbuildingAgent  →  game_concept.json    (世界观/关卡/角色设定)
@@ -16,7 +16,8 @@ PosterAgent         →  poster.html           (CSS动画宣传海报)
 PublisherAgent      →  publish_kit.json      (Steam/TapTap/微博文案)
      ↓
 Orchestrator        →  report.html           (项目总览报告)
-```
+
+
 快速开始
 1. 安装依赖
 ```bash
@@ -38,6 +39,7 @@ cd web_ui
 python app.py
 # 打开浏览器访问 http://localhost:5000
 ```
+
 输出文件说明
 文件	内容
 `game_concept.json`	游戏世界观、关卡设计、美术方向
